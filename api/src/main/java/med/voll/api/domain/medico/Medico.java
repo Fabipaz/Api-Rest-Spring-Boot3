@@ -12,7 +12,7 @@ import med.voll.api.domain.direccion.Direccion;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-@EqualsAndHashCode
+@EqualsAndHashCode(of = "id")
 public class Medico {
 
     @Id
